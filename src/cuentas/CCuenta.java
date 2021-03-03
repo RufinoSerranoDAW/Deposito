@@ -30,14 +30,14 @@ public class CCuenta {
         return getSaldo();
     }
     
-    public void ingresar(double cantidad) throws Exception {
+    public void ingresarSaldo(double cantidad) throws Exception {
         if (cantidad < 0) {
             throw new Exception("No se puede ingresar una cantidad negativa");
         }
         setSaldo(getSaldo() + cantidad);
     }
     
-    public void retirar(double cantidad) throws Exception {
+    public void retirarSaldo(double cantidad) throws Exception {
         if (cantidad <= 0) {
             throw new Exception ("No se puede retirar una cantidad negativa");
         }
