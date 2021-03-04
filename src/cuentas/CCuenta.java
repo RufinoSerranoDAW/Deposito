@@ -10,6 +10,7 @@ package cuentas;
 /**
  *
  * @author rufis
+ * Visto
  */
 public class CCuenta {
     private String nombre;
